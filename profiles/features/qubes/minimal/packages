@@ -1,0 +1,12 @@
+# now part of @system set
+*sys-devel/
+*sys-devel/llvm
+*sys-devel/clang
+*sys-libs/libcxx
+*sys-libs/libcxxabi
+*sys-libs/compiler-rt
+*sys-libs/llvm-libunwind
+
+# not needed ? 
+# -*sys-devel/gcc
+# -*sys-devel/gcc-config
