@@ -5,8 +5,11 @@
 *app-emulation/qubes-usb-proxy
 *app-emulation/qubes-libvchan-xen
 *app-emulation/qubes-img-converter
-*app-emulation/qubes-gui-agent
-*app-emulation/qubes-gui-common
+
+# core-agent-linux still needs X
+# *app-emulation/qubes-gui-agent
+# *app-emulation/qubes-gui-common
+
 *app-emulation/qubes-core-qrexec
 *app-emulation/qubes-utils
 *app-emulation/qubes-db
