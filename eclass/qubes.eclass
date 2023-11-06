@@ -3,7 +3,7 @@
 # Workaround for verifying git tags
 # Feature request: https://bugs.gentoo.org/733430
 qubes_verify_sources_git() {
-    QUBES_OVERLAY_DIR="$(portageq get_repo_path / qubes)"
+    QUBES_OVERLAY_DIR="/var/db/repos/qubes-gentoo-phceac"
     # Import Qubes developers keys
     gpg --import "${QUBES_OVERLAY_DIR}/keys/qubes-developers-keys.asc" 2>/dev/null
     # Trust Qubes Master Signing Key
